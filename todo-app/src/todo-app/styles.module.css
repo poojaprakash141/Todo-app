@@ -1,0 +1,72 @@
+body {
+  justify-items: center;
+  align-items: center;
+}
+
+.container {
+  background-color: rgb(4, 21, 85);
+  padding: 10px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  justify-items: center;
+  align-items: center;
+  font-style: italic;
+  color: beige;
+  font-size: 2rem;
+  box-shadow: 0 8px 8px darkred;
+
+}
+
+.input {
+  height: fit-content;
+  margin-right: 10px;
+  border: 3px solid rgb(58, 146, 28);
+  width: 300px;
+  border-radius: 10px;
+}
+
+.button {
+  height: fit-content;
+  background-color: blue;
+  border: 2px solid blue;
+  border-radius: 10px;
+  /* Adjust size/style as needed */
+}
+
+button,.button2:hover {
+  color: brown;
+  cursor: pointer
+}
+.button3{
+  background-color: green;
+  border: 2px solid green;
+}
+
+li {
+  list-style-type: none;
+}
+.map ol{
+  display: flex;
+  border: solid grey 2px;
+  padding: 10px;
+  box-shadow: 0 8px 8px ;
+justify-content: space-between;
+  margin-right: 10px;
+  margin-left: 10px;
+  flex-direction: row;
+}
+.map{
+position: relative;
+right: 3px;
+
+}
+.map ol {
+  font-size: medium;
+}
+.button2 {
+  border: 2px solid red;
+  background-color: red;
+  
+}
